@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LocationDetailView: View {
+    let columns = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 16){
@@ -40,7 +42,7 @@ struct LocationDetailView: View {
                         Link(destination: URL(string: "https://www.apple.com")!, label: {
                             LocationActionButton(color: .brandPrimary, imageName: "network")
                         })
-                             
+                        
                         Button {
                             
                         } label: {
@@ -55,6 +57,15 @@ struct LocationDetailView: View {
                     }
                 }
                 .padding(.horizontal)
+                Text("Who's Here?")
+                    .bold()
+                    .font(.title2)
+                LazyVGrid(columns: columns, content: {
+                    AvatarView(size: 64)
+                    AvatarView(size: 64)
+                    AvatarView(size: 64)
+                    
+                })
                 
                 Spacer()
             }
