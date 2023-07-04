@@ -61,9 +61,12 @@ struct LocationDetailView: View {
                     .bold()
                     .font(.title2)
                 LazyVGrid(columns: columns, content: {
-                    AvatarView(size: 64)
-                    AvatarView(size: 64)
-                    AvatarView(size: 64)
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
                     
                 })
                 
@@ -95,6 +98,20 @@ struct LocationActionButton: View {
                 .scaledToFit()
                 .foregroundColor(.white)
                 .frame(width: 22, height: 22)
+        }
+    }
+}
+
+struct FirstNameAvatarView: View {
+    var firstName: String
+    
+    var body: some View {
+        VStack {
+            AvatarView(size: 64)
+            Text(firstName)
+                .bold()
+                .lineLimit(1)
+                .minimumScaleFactor(0.75)
         }
     }
 }

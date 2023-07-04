@@ -36,6 +36,7 @@ struct LocationListView: View {
                         }
                         .padding(.leading)
                     }
+                    
                 }
             }
             .navigationTitle("Grub Spots")
