@@ -23,9 +23,10 @@ struct LocationDetailView: View {
                 Spacer()
             }
             .padding(.horizontal)
-            Text("This is a test Description. This is a test Description. This is a test Description.")
+            Text("This is a test Description. This is a test Description. This is a test Description. This is a test Description. This is a test Description. This is a test Description.")
                 .lineLimit(3)
                 .minimumScaleFactor(0.75)
+                .frame(height: 70)
                 .padding(.horizontal)
             ZStack {
                 Capsule()
@@ -59,16 +60,17 @@ struct LocationDetailView: View {
             Text("Who's Here?")
                 .bold()
                 .font(.title2)
-            LazyVGrid(columns: columns, content: {
-                FirstNameAvatarView(firstName: "Kaap")
-                FirstNameAvatarView(firstName: "Kaap")
-                FirstNameAvatarView(firstName: "Kaap")
-                FirstNameAvatarView(firstName: "Kaap")
-                FirstNameAvatarView(firstName: "Kaap")
-                FirstNameAvatarView(firstName: "Kaap")
-                
-            })
-            
+            ScrollView {
+                LazyVGrid(columns: columns, content: {
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    FirstNameAvatarView(firstName: "Kaap")
+                    
+                })
+            }
             Spacer()
         }
         .navigationTitle("Location Name")
