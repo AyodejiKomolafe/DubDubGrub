@@ -25,13 +25,9 @@ struct ProfileView: View {
                     
                     VStack(spacing: 1) {
                         TextField("First Name", text: $firstName)
-                            .font(.system(size: 32, weight: .bold))
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.75)
+                            .profileNameStyle()
                         TextField("Last Name", text: $lastName)
-                            .font(.system(size: 32, weight: .bold))
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.75)
+                            .profileNameStyle()
                         TextField("Company Name", text: $companyName)
                     }
                     .padding(.trailing, 16)
@@ -83,6 +79,10 @@ struct ProfileView_Previews: PreviewProvider {
         }
     }
 }
+
+
+
+
 
 struct NameBackgroundView: View {
     var body: some View {
