@@ -20,6 +20,7 @@
 		48C8D81F2A58806700066B4F /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D81E2A58806700066B4F /* AvatarView.swift */; };
 		48C8D8212A58839000066B4F /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8202A58839000066B4F /* CustomModifiers.swift */; };
 		48C8D8232A5883C500066B4F /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8222A5883C500066B4F /* View+Ext.swift */; };
+		48C8D8252A5884C400066B4F /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8242A5884C400066B4F /* DDGButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		48C8D81E2A58806700066B4F /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		48C8D8202A58839000066B4F /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		48C8D8222A5883C500066B4F /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		48C8D8242A5884C400066B4F /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				48C8D81E2A58806700066B4F /* AvatarView.swift */,
 				48C8D8202A58839000066B4F /* CustomModifiers.swift */,
 				48C8D8222A5883C500066B4F /* View+Ext.swift */,
+				48C8D8242A5884C400066B4F /* DDGButton.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				48C8D8192A39C66300066B4F /* ProfileView.swift in Sources */,
 				48C8D8232A5883C500066B4F /* View+Ext.swift in Sources */,
 				48C8D81D2A587FFF00066B4F /* LocationCell.swift in Sources */,
+				48C8D8252A5884C400066B4F /* DDGButton.swift in Sources */,
 				48C8D81F2A58806700066B4F /* AvatarView.swift in Sources */,
 				48C8D8112A39C1CD00066B4F /* Color+Ext.swift in Sources */,
 			);
