@@ -47,7 +47,15 @@ struct ProfileView: View {
             
             }
             VStack(alignment: .leading,spacing: 8){
-                Text("Bio: 100 Characters Remain")
+                Text("Bio: ")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+                +
+                Text("100")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+                +
+                Text(" Characters Remain")
                     .font(.callout)
                     .foregroundColor(.secondary)
                 TextEditor(text: $bio)
