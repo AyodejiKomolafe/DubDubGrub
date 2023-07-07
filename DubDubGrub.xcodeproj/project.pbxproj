@@ -74,19 +74,10 @@
 			children = (
 				48C8D80F2A39BE1E00066B4F /* DubDubGrub.entitlements */,
 				48C8D8012A39BCAC00066B4F /* DubDubGrubApp.swift */,
+				48C8D8272A5886BF00066B4F /* Views */,
+				48C8D8262A5886A400066B4F /* Extensions */,
 				48C8D8052A39BCAE00066B4F /* Assets.xcassets */,
 				48C8D8072A39BCAE00066B4F /* Preview Content */,
-				48C8D8102A39C1CD00066B4F /* Color+Ext.swift */,
-				48C8D8122A39C5F800066B4F /* AppTabView.swift */,
-				48C8D8142A39C63500066B4F /* LocationMapView.swift */,
-				48C8D8162A39C65500066B4F /* LocationListView.swift */,
-				48C8D8182A39C66300066B4F /* ProfileView.swift */,
-				48C8D81A2A39EB3D00066B4F /* LocationDetailView.swift */,
-				48C8D81C2A587FFE00066B4F /* LocationCell.swift */,
-				48C8D81E2A58806700066B4F /* AvatarView.swift */,
-				48C8D8202A58839000066B4F /* CustomModifiers.swift */,
-				48C8D8222A5883C500066B4F /* View+Ext.swift */,
-				48C8D8242A5884C400066B4F /* DDGButton.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -97,6 +88,55 @@
 				48C8D8082A39BCAE00066B4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48C8D8262A5886A400066B4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48C8D8102A39C1CD00066B4F /* Color+Ext.swift */,
+				48C8D8222A5883C500066B4F /* View+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		48C8D8272A5886BF00066B4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48C8D8202A58839000066B4F /* CustomModifiers.swift */,
+				48C8D82A2A58874300066B4F /* CustomViews */,
+				48C8D8292A58872800066B4F /* Cells */,
+				48C8D8282A5886D000066B4F /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48C8D8282A5886D000066B4F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				48C8D8122A39C5F800066B4F /* AppTabView.swift */,
+				48C8D81A2A39EB3D00066B4F /* LocationDetailView.swift */,
+				48C8D8162A39C65500066B4F /* LocationListView.swift */,
+				48C8D8142A39C63500066B4F /* LocationMapView.swift */,
+				48C8D8182A39C66300066B4F /* ProfileView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		48C8D8292A58872800066B4F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				48C8D81C2A587FFE00066B4F /* LocationCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		48C8D82A2A58874300066B4F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				48C8D81E2A58806700066B4F /* AvatarView.swift */,
+				48C8D8242A5884C400066B4F /* DDGButton.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
