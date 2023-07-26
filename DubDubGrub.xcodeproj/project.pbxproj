@@ -23,6 +23,7 @@
 		48C8D8252A5884C400066B4F /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8242A5884C400066B4F /* DDGButton.swift */; };
 		48C8D82D2A71DDE100066B4F /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D82C2A71DDE100066B4F /* DDGLocation.swift */; };
 		48C8D82F2A71E2BF00066B4F /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D82E2A71E2BF00066B4F /* DDGProfile.swift */; };
+		48C8D8312A71E5B900066B4F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8302A71E5B900066B4F /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		48C8D8242A5884C400066B4F /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 		48C8D82C2A71DDE100066B4F /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		48C8D82E2A71E2BF00066B4F /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
+		48C8D8302A71E5B900066B4F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				48C8D82C2A71DDE100066B4F /* DDGLocation.swift */,
 				48C8D82E2A71E2BF00066B4F /* DDGProfile.swift */,
+				48C8D8302A71E5B900066B4F /* MockData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				48C8D8212A58839000066B4F /* CustomModifiers.swift in Sources */,
 				48C8D8152A39C63500066B4F /* LocationMapView.swift in Sources */,
 				48C8D8172A39C65500066B4F /* LocationListView.swift in Sources */,
+				48C8D8312A71E5B900066B4F /* MockData.swift in Sources */,
 				48C8D81B2A39EB3D00066B4F /* LocationDetailView.swift in Sources */,
 				48C8D82F2A71E2BF00066B4F /* DDGProfile.swift in Sources */,
 				48C8D82D2A71DDE100066B4F /* DDGLocation.swift in Sources */,
