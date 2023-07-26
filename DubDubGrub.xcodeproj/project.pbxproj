@@ -22,6 +22,7 @@
 		48C8D8232A5883C500066B4F /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8222A5883C500066B4F /* View+Ext.swift */; };
 		48C8D8252A5884C400066B4F /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8242A5884C400066B4F /* DDGButton.swift */; };
 		48C8D82D2A71DDE100066B4F /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D82C2A71DDE100066B4F /* DDGLocation.swift */; };
+		48C8D82F2A71E2BF00066B4F /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D82E2A71E2BF00066B4F /* DDGProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		48C8D8222A5883C500066B4F /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		48C8D8242A5884C400066B4F /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 		48C8D82C2A71DDE100066B4F /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		48C8D82E2A71E2BF00066B4F /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				48C8D82C2A71DDE100066B4F /* DDGLocation.swift */,
+				48C8D82E2A71E2BF00066B4F /* DDGProfile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				48C8D8152A39C63500066B4F /* LocationMapView.swift in Sources */,
 				48C8D8172A39C65500066B4F /* LocationListView.swift in Sources */,
 				48C8D81B2A39EB3D00066B4F /* LocationDetailView.swift in Sources */,
+				48C8D82F2A71E2BF00066B4F /* DDGProfile.swift in Sources */,
 				48C8D82D2A71DDE100066B4F /* DDGLocation.swift in Sources */,
 				48C8D8132A39C5F800066B4F /* AppTabView.swift in Sources */,
 				48C8D8192A39C66300066B4F /* ProfileView.swift in Sources */,
