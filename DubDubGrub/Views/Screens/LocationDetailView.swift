@@ -10,15 +10,17 @@ import SwiftUI
 struct LocationDetailView: View {
     let columns = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     
+    var location: DDGLocation
+    
     var body: some View {
         VStack(spacing: 16){
             BannerImageView(imageName: "default-banner-asset")
             HStack{
-                AddressView(address: "123 main st")
+                AddressView(address: location.address)
                 Spacer()
             }
             .padding(.horizontal)
-            DescriptionView(text: "This is a test Description. This is a test Description. This is a test Description. This is a test Description. This is a test Description. This is a test Description.")
+            DescriptionView(text: location.description)
             
             ZStack {
                 Capsule()
@@ -31,7 +33,7 @@ struct LocationDetailView: View {
                         LocationActionButton(color: .brandPrimary, imageName: "location.fill")
                     }
                     
-                    Link(destination: URL(string: "https://www.apple.com")!, label: {
+                    Link(destination: URL(string: location.websiteURL)!, label: {
                         LocationActionButton(color: .brandPrimary, imageName: "network")
                     })
                     
@@ -65,14 +67,14 @@ struct LocationDetailView: View {
             }
             Spacer()
         }
-        .navigationTitle("Location Name")
+        .navigationTitle(location.name)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct LocationDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationDetailView()
+        LocationDetailView(location: DDGLocation(record: MockData.location))
     }
 }
 
@@ -122,7 +124,7 @@ struct BannerImageView: View {
 struct AddressView: View {
     var address: String
     var body: some View {
-        Label("123 main st", systemImage: "mappin.and.ellipse")
+        Label(address, systemImage: "mappin.and.ellipse")
             .font(.caption)
             .foregroundColor(.secondary)
     }
