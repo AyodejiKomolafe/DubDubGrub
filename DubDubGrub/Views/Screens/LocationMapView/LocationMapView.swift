@@ -9,7 +9,8 @@ import SwiftUI
 import MapKit
 
 struct LocationMapView: View {
-   @StateObject private var viewModel = LocationMapViewModel()
+    @EnvironmentObject private var locationManager: LocationManager
+    @StateObject private var viewModel = LocationMapViewModel()
     
     
     var body: some View {
@@ -26,7 +27,7 @@ struct LocationMapView: View {
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)
         })
         .onAppear {
-            viewModel.getLocations()
+            viewModel.getLocations(for: locationManager)
         }
     }
 }
