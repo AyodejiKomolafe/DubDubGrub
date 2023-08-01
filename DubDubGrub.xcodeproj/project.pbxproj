@@ -26,6 +26,8 @@
 		48C8D8312A71E5B900066B4F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8302A71E5B900066B4F /* MockData.swift */; };
 		48C8D8342A71EE3800066B4F /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8332A71EE3800066B4F /* CloudKitManager.swift */; };
 		48C8D8362A71EF0500066B4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8352A71EF0500066B4F /* Constants.swift */; };
+		48C8D8382A71F4A700066B4F /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8372A71F4A700066B4F /* CKRecord+Ext.swift */; };
+		48C8D83A2A71F61A00066B4F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8392A71F61A00066B4F /* AlertItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		48C8D8302A71E5B900066B4F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		48C8D8332A71EE3800066B4F /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		48C8D8352A71EF0500066B4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		48C8D8372A71F4A700066B4F /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
+		48C8D8392A71F61A00066B4F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				48C8D8262A5886A400066B4F /* Extensions */,
+				48C8D8372A71F4A700066B4F /* CKRecord+Ext.swift */,
 				48C8D8332A71EE3800066B4F /* CloudKitManager.swift */,
 				48C8D8352A71EF0500066B4F /* Constants.swift */,
+				48C8D8392A71F61A00066B4F /* AlertItem.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -252,8 +258,10 @@
 				48C8D8132A39C5F800066B4F /* AppTabView.swift in Sources */,
 				48C8D8192A39C66300066B4F /* ProfileView.swift in Sources */,
 				48C8D8342A71EE3800066B4F /* CloudKitManager.swift in Sources */,
+				48C8D83A2A71F61A00066B4F /* AlertItem.swift in Sources */,
 				48C8D8232A5883C500066B4F /* View+Ext.swift in Sources */,
 				48C8D81D2A587FFF00066B4F /* LocationCell.swift in Sources */,
+				48C8D8382A71F4A700066B4F /* CKRecord+Ext.swift in Sources */,
 				48C8D8252A5884C400066B4F /* DDGButton.swift in Sources */,
 				48C8D81F2A58806700066B4F /* AvatarView.swift in Sources */,
 				48C8D8112A39C1CD00066B4F /* Color+Ext.swift in Sources */,
