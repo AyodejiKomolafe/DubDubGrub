@@ -11,7 +11,7 @@ struct MockData {
     
     static var location: CKRecord {
         let record = CKRecord(recordType: RecordType.location)
-        record[DDGLocation.kName] = "Eko's Bar and Grill"
+        record[DDGLocation.kName] = "Eko's Bar and Grill Home Alone"
         record[DDGLocation.kAddress] = "123 Main Street"
         record[DDGLocation.kDescription] = "This is a test description. I am making this very long so we can text the 3 lines for the description fully filled."
         record[DDGLocation.kWebsiteURL] = "https://google.com"
