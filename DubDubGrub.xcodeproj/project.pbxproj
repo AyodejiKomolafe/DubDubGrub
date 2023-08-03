@@ -30,6 +30,7 @@
 		48C8D83A2A71F61A00066B4F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8392A71F61A00066B4F /* AlertItem.swift */; };
 		48C8D83D2A79B66400066B4F /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D83C2A79B66400066B4F /* LocationMapViewModel.swift */; };
 		48C8D8402A79BA1F00066B4F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D83F2A79BA1F00066B4F /* LocationManager.swift */; };
+		48C8D8422A7C6F9500066B4F /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D8412A7C6F9500066B4F /* CKAsset+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		48C8D8392A71F61A00066B4F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		48C8D83C2A79B66400066B4F /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		48C8D83F2A79BA1F00066B4F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		48C8D8412A7C6F9500066B4F /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +94,10 @@
 			children = (
 				48C8D80F2A39BE1E00066B4F /* DubDubGrub.entitlements */,
 				48C8D8012A39BCAC00066B4F /* DubDubGrubApp.swift */,
+				48C8D8052A39BCAE00066B4F /* Assets.xcassets */,
 				48C8D82B2A71DD9D00066B4F /* Model */,
 				48C8D8272A5886BF00066B4F /* Views */,
 				48C8D8322A71EE0A00066B4F /* Utilities */,
-				48C8D8052A39BCAE00066B4F /* Assets.xcassets */,
 				48C8D8072A39BCAE00066B4F /* Preview Content */,
 			);
 			path = DubDubGrub;
@@ -115,6 +117,7 @@
 				48C8D8372A71F4A700066B4F /* CKRecord+Ext.swift */,
 				48C8D8102A39C1CD00066B4F /* Color+Ext.swift */,
 				48C8D8222A5883C500066B4F /* View+Ext.swift */,
+				48C8D8412A7C6F9500066B4F /* CKAsset+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				48C8D81D2A587FFF00066B4F /* LocationCell.swift in Sources */,
 				48C8D8382A71F4A700066B4F /* CKRecord+Ext.swift in Sources */,
 				48C8D8402A79BA1F00066B4F /* LocationManager.swift in Sources */,
+				48C8D8422A7C6F9500066B4F /* CKAsset+Ext.swift in Sources */,
 				48C8D8252A5884C400066B4F /* DDGButton.swift in Sources */,
 				48C8D81F2A58806700066B4F /* AvatarView.swift in Sources */,
 				48C8D8112A39C1CD00066B4F /* Color+Ext.swift in Sources */,
